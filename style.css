@@ -1,0 +1,29 @@
+div{
+    background-color: blue;
+    color: black;
+    border: 1px solid red;
+}
+
+.city
+{
+    background-color: blue;
+    color: black;
+    border: 1px solid red;
+}
+
+#i1{
+    background-color: red;
+    color: black;
+    border: 1px solid blue;
+}
+h6,h3{
+    background-color: blue;
+    color: black;
+    border: 1px solid red;
+}
+*{
+    background-color: black;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid white ;
+}
