@@ -1,0 +1,59 @@
+.lecture
+{
+    opacity: 1;
+    outline: blue dashed 2px;
+    outline-offset: 1px;
+    overflow: auto;
+    overflow: hidden;
+    overflow: scroll;
+    overflow: visible;
+    display: inline;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    visibility: visible;
+    cursor: pointer;
+    cursor: grab;
+    cursor: copy;
+    cursor: crosshair;
+    
+}
+
+.lecture:hover
+{
+    visibility: hidden;
+}
+
+/* make another list in predefined list */
+.lecture:hover .sub .sublist
+{
+    visibility: visible;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: none;
+}
+/* counter */
+
+body
+{
+    counter-reset: x;
+}
+
+h1::after
+{
+    counter-increment: x;
+    content:"==" counter(x);
+}
+
+/* position 
+     1. static position
+     2. relative
+     3. absolute
+     4. fixed
+     5. sticky
+
+
+
+*/
