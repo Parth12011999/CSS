@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .anime
+        {
+            height: 150px;
+            width: 150px;
+            background-color: aqua;
+            animation-name: anima;
+            animation-duration: 1s;
+            animation-delay: 1s;
+            /* animation-iteration-count: infinite; */
+            position: relative;
+        }
+        @keyframes anima
+        {
+            0%
+            {
+                position: absolute;
+                background-color: red;
+                left: 50%;
+            }
+            50%
+            {
+                position: absolute;
+                background-color: blue;
+                top: 50%;
+            }
+            /* 50%
+            {
+                position: absolute;
+                background-color: gold;
+                right: 50%;
+            }
+            75%
+            {
+                position: absolute;
+                background-color: green;
+                bottom: 50%;
+            } */
+        }
+    </style>
+</head>
+<body>
+    <div class="anime">
+
+    </div>
+</body>
+</html>
