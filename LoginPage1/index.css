@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+  }
+  .wrapper {
+    background: rgb(177, 241, 241);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .login-page {
+    width: 50%;
+    display: flex;
+    box-shadow: 10px 10px 20px black;
+    border-radius: 10px;
+  }
+  .login-area {
+    padding: 20px 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  .icons {
+    display: flex;
+    font-size: 20px;
+  }
+  .icons div {
+    padding: 8px;
+    margin: 30px 5px;
+    border-radius: 50%;
+  }
+  .icons div:hover{
+    cursor: pointer;
+    color: white;
+  }
+  .login {
+    text-align: center;
+  }
+  .login p {
+    font-size: 0.8rem;
+    padding: 5px 0;
+  }
+  .login form div {
+    padding: 5px 0px;
+  }
+  .login form div input {
+    padding: 8px 20px;
+    border-radius: 5px;
+  }
+  .login form a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 0px;
+  }
+  .login form button {
+    background: linear-gradient(to right top, aqua, rgb(39, 206, 206));
+    border: transparent;
+    border-radius: 20px;
+    padding: 8px 25px;
+    opacity: 0.8;
+    color: white;
+  }
+  .login form button:hover{
+    opacity: 1;
+    cursor: pointer;
+  }
+
+  .advertise{
+    background: linear-gradient(to right top, aqua, rgb(39, 206, 206));
+    padding: 20px 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .advertise-title{
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  .descript{
+    font-size: 1rem;
+
+  }
